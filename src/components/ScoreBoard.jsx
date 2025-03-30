@@ -1,6 +1,6 @@
 export default function ScoreBoard({score, bestScore}) {
     return (
-      <div className="scoreBoard">
+      <div className="score-board">
         <p className="score-para">
           Score: <span className="score-sp">0 {score}</span>
         </p>

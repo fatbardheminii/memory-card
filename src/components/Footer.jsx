@@ -4,7 +4,7 @@ export default function Footer() {
       <p>
         © {new Date().getFullYear()} |{" "}
         <a href="http://https://github.com/fatbardheminii">
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>{" "}
         Fatbardh Emini
       </p>
