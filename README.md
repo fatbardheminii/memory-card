@@ -4,7 +4,7 @@ A simple React memory card game featuring country flags. Test your memory by cli
 
 ## Preview
 
-[Memory Card Game Screenshot](src/images/screenshot.png) 
+![Memory Card Game Screenshot](src/images/screenshot.png) 
 
 ## Features
 
