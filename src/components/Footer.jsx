@@ -3,7 +3,7 @@ export default function Footer() {
     <footer>
       <p>
         © {new Date().getFullYear()} |{" "}
-        <a href="http://https://github.com/fatbardheminii">
+        <a href="https://github.com/fatbardheminii" target="_blank">
           <i className="fa-brands fa-github"></i>
         </a>{" "}
         Fatbardh Emini

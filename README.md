@@ -1,12 +1,43 @@
-# React + Vite
+# Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React memory card game featuring country flags. Test your memory by clicking on each flag only once per round. If you click on the same flag twice in a round, the game resets!
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Memory Card Game Screenshot](src/images/screenshot.png) 
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Dynamic country flag cards fetched from REST Countries API
+- Score tracking with best score memory
+- Multiple rounds of increasing difficulty
+- Responsive grid layout
+
+## Project Structure
+
+The game is divided into reusable React components:
+
+- **Card**: Individual flag card component
+- **GameBoard**: Main game logic and card management
+- **ScoreBoard**: Displays current score, best score, and round number
+- **CountryAPI**: Handles API requests and country data management
+- **Header & Footer**: Layout components
+
+## Technologies Used
+
+- React 
+- REST Countries API
+- CSS Grid for responsive layout
+- React Hooks (useState, useEffect)
+
+## Game Logic
+
+- The game tracks which flags you've clicked in each round
+- Clicking the same flag twice in a round resets the game
+- Your best score is saved between game sessions
+- Cards shuffle after each selection to increase difficulty
+
+## Credits
+
+- Flag images from [flagcdn.com](https://flagcdn.com)
+- Country data from [REST Countries API](https://restcountries.com)
